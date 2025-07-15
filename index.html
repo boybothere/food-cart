@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="food-grid">
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&h=200&fit=crop" alt="Burger">
+                <h3 class="item-name">Burger</h3>
+                <span class="item-price">12.99</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?w=300&h=200&fit=crop" alt="Pasta">
+                <h3 class="item-name">Pasta Carbonara</h3>
+                <span class="item-price">16.99</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&h=200&fit=crop" alt="salad">       
+                <h3 class="item-name">Caesar Salad</h3>
+                <span class="item-price">10.99</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="cart">
+            <h2>Your Cart</h2>
+
+            <div id="cart-items"></div>
+
+            <p id="empty-msg">Your cart is empty</p>
+            
+            <div class="coupon-section">
+                <h3>Coupon Code</h3>
+                <input id="coupon" type="text" placeholder="Enter coupon code" class="coupon-input">
+                <button class="apply-btn">Apply</button>
+            </div>
+            
+            <div class="subtotal">
+            <span class="label">Subtotal:</span>
+            <span class="subtotal-value">0.00</span>
+            </div>
+
+            <div class="discount-amount">
+            <span class="label">Discount:</span>
+            <span class="discount-amount-value">0.00</span>
+            </div>
+
+            <div class="final-total">
+            <span class="label">Total:</span>
+            <span class="final-total-value">0.00</span>
+            </div>
+            <div class="create-order">
+                <button class="order-btn">Place Order</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
