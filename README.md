@@ -15,3 +15,10 @@ The main goal was to practice **Promise chaining** and learn how to pass values 
 It’s not a full app or anything — more of a personal experiment to connect JS concepts with real UI behavior.
 
 Feel free to explore or reuse!
+
+<img width="1841" height="910" alt="image" src="https://github.com/user-attachments/assets/f2c28190-3174-43f5-a63b-09f9f0fd7961" />
+
+<img width="1823" height="893" alt="image" src="https://github.com/user-attachments/assets/6fcdd7f9-0208-4815-9459-cfd64171e5d4" />
+
+
+
